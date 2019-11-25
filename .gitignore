@@ -57,5 +57,15 @@ typings/
 # dotenv environment variables file
 .env
 
+package-lock.json
 # next.js build output
 .next
+
+.DS_Store
+.idea/workspace.xml
+.idea
+# config.json
+/.idea/workspace.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
