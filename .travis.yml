@@ -10,9 +10,10 @@ cache:
 node_js: stable
 
 install:
-  - install i -D
+  - npm i -D
   - cd ./test/smoke/template
-  - install i -D
+  - npm i -D
+  - cd ../../../
 
 scripts:
   - npm test
